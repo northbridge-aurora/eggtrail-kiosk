@@ -1,0 +1,31 @@
+/* Northbridge Aurora - Corporate Styling */
+:root {
+    --aurora-blue: #004a99;
+    --spring-green: #4caf50;
+    --egg-yellow: #ffeb3b;
+    --error-red: #f44336;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.kiosk-header {
+    background: var(--aurora-blue);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Visual feedback for Decoy clues */
+.decoy-shake {
+    animation: shake 0.5s;
+    border: 2px solid var(--error-red);
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
