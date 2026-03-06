@@ -1,1 +1,19 @@
-"qrcode", "express"
+{
+  "name": "eggtrail-kiosk-ui",
+  "version": "1.4.2",
+  "description": "Frontend scanning and check-in interface for physical EggTrail kiosks.",
+  "main": "src/scanner.js",
+  "author": "Operations Engineering <ops@northbridge-aurora.xyz>",
+  "contributors": [
+    "Sara M. Cruz <sara.cruz@northbridge-aurora.xyz>"
+  ],
+  "dependencies": {
+    "qrcode": "^1.5.0",
+    "axios": "^0.26.1",
+    "browser-qrcode-reader": "^0.1.2"
+  },
+  "scripts": {
+    "start": "node src/scanner.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
