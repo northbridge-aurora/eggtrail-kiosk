@@ -17,3 +17,15 @@ The kiosk software handles:
 ```bash
 npm install
 npm run start
+```
+
+## Venue Operations (Spring Trail Week)
+For the 2026 rollout, operations engineers must verify venue-specific physical placement.
+
+**IMPORTANT OPS NOTE:**
+- Due to privacy-first scrubbing policies implemented by smcruz, do not commit raw venue addresses to this README or the wiki.
+
+If you are validating venue pins for the Barbican leg, please refer to the official handoff screenshot in the documentation folder
+
+## Security
+For security disclosures, please contact security@northbridge-aurora.xyz.
